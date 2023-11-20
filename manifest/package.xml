@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>OpportunityLineItemTriggerHandler</members>
+        <members>OpportunityLineItemService</members>
+        <members>OpportunityLineItemServiceTest</members>
+        <members>AddBestSellerButtonController</members>
+        <members>AddBestSellerButtonControllerTest</members>
+        <members>MaintainTopBestSellersBatch</members>
+        <members>MaintainTopSellerSched</members>
+        <members>MaintainTopSellerSchedTest</members>
+        <members>OpportunityTriggerHandler</members>
+        <members>OpportunityService</members>
+        <members>OpportunityServiceTest</members>
+        <members>WeeklyOrderSummary</members>
+        <members>WeeklyOrderSummaryTest</members>
+        <members>SendOrderSummaryEmailBatch</members>
+        <members>TestDataFactory</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>OpportunityLineItemTrigger</members>
+        <members>OpportunityTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>top5BestSellerButton</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Region__c</members>
+        <members>TopProduct__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>58.0</version>
+</Package>
